@@ -6,7 +6,7 @@ task execution system. It provides real-time log collection, storage, and manage
 ## Features
 
 - Receives logs securely from Synapse clients running tasks.
-Parses and formats log data with timestamps, client IDs, and task information.
+- Parses and formats log data with timestamps, client IDs, and task information.
 Stores logs in a MongoDB database hosted on MongoDB Atlas Cloud (configurable).
 Offers functionalities for authorized users to (optional):
 

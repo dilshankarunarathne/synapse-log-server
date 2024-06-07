@@ -11,3 +11,5 @@ task execution system. It provides real-time log collection, storage, and manage
 - Offers functionalities for authorized users to (optional):
   - Search and filter logs based on various criteria.
   - Visualize logs (future implementation).
+
+

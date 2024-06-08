@@ -3,8 +3,12 @@ const authMiddleware = require('../middleware/authMiddleware');
 const express = require('express');
 const router = express.Router();
 
-router.get('/secured', authMiddleware, (req, res) => {
-  res.send('This is a secured route');
+router.post('/db-log', authMiddleware, (req, res) => {
+  res.send('Logging was successful'); // TODO: Implement logging
+});
+
+router.post('/flat-log', authMiddleware, (req, res) => {
+  res.send('Logging was successful'); // TODO: Implement logging
 });
 
 module.exports = router;

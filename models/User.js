@@ -1,4 +1,4 @@
-const mongoose = require('../db');
+const mongoose = require('../middleware/dbConnectionMiddleware');
 
 const UserSchema = new mongoose.Schema({
   username: String,

@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const db = require('./db');
+const db = require('./middleware/dbConnectionMiddleware');
 
 const authController = require('./routes/authController');
 const securedController = require('./routes/networkController');

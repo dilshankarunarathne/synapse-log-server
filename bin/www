@@ -3,8 +3,7 @@
 /**
  * Module dependencies.
  */
-
-var app = require('../app');
+const app = require('../app');
 var debug = require('debug')('synapse-log-server:server');
 var http = require('http');
 

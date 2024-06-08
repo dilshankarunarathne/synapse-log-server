@@ -7,7 +7,7 @@ router.post('/dblog', authMiddleware, (req, res) => {
     res.send('Logging was successful');
 });
 
-router.post('/dblog', authMiddleware, (req, res) => {
+router.post('/flat-log', authMiddleware, (req, res) => {
     res.send('Logging was successful');
 });
 

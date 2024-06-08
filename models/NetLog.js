@@ -4,6 +4,7 @@ const LogSchema = new mongoose.Schema({
     timestamp: { type: Date, default: Date.now },
     clientId: String,
     jobId: String,
+    workerId: String,
     logLevel: String,
     logMessage: String,
 });

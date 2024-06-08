@@ -7,4 +7,8 @@ router.post('/dblog', authMiddleware, (req, res) => {
     res.send('Logging was successful');
 });
 
+router.post('/dblog', authMiddleware, (req, res) => {
+    res.send('Logging was successful');
+});
+
 module.exports = router;

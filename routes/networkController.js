@@ -3,6 +3,8 @@ const authMiddleware = require('../middleware/authMiddleware');
 const express = require('express');
 const router = express.Router();
 
+// TODO: implement auth handling
+
 router.post('/db-log', authMiddleware, (req, res) => {
   res.send('Logging was successful'); // TODO: Implement logging
 });

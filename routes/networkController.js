@@ -8,7 +8,7 @@ const Log = require('../models/NetLog');
 router.post('/db-log', (req, res) => {
     const log = new Log({
         timestamp: req.body.timestamp,
-        clientId: req.body.clientId,
+        clientId: 'test client',
         jobId: req.body.jobId,
         logLevel: req.body.logLevel,
         logMessage: req.body.logMessage,

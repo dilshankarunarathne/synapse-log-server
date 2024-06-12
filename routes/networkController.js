@@ -8,7 +8,7 @@ router.post('/db-log', (req, res) => {
 });
 
 router.post('/flat-log', (req, res) => {
-
+    
     res.send('Logging was successful'); // TODO: Implement logging
 });
 

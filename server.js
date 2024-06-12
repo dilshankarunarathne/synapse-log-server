@@ -8,7 +8,7 @@ const db = require('./middleware/dbConnectionMiddleware');
 const networkController = require('./routes/networkController');
 const singleClientController = require('./routes/singleClientController');
 
-app.use(cors()); 
+app.use(cors());
 app.use(express.json());
 
 app.use('/netlog', networkController);

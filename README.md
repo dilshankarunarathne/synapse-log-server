@@ -3,7 +3,7 @@
 This repository contains the source code for the Synapse Logging Server, a central component of the Synapse distributed
 task execution system. It provides real-time log collection, storage, and management for tasks running on edge devices.
 
-[![Version](https://img.shields.io/badge/version-0.1-brightgreen.svg)](https://pypi.org/project/ad-topic-recommender/)
+[![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](https://pypi.org/project/ad-topic-recommender/)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Features
@@ -14,6 +14,7 @@ task execution system. It provides real-time log collection, storage, and manage
 - Offers functionalities for authorized users to:
     - Search and filter logs based on various criteria
     - Visualize logs
+- Web view for logging server status and logs
 
 ## License
 

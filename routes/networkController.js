@@ -23,4 +23,8 @@ router.post('/flat-log', (req, res) => {
     res.send('Logging was successful'); // TODO: Implement logging
 });
 
+router.post('/web-log', (req, res) => {
+    res.send('Logging was successful'); // TODO: Implement logging
+});
+
 module.exports = router;

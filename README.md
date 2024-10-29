@@ -16,6 +16,8 @@ task execution system. It provides real-time log collection, storage, and manage
     - Visualize logs
 - Web view for logging server status and logs
 
+### [Project Network Diagram](https://github.com/users/dilshankarunarathne/projects/2?pane=issue&itemId=85136023)
+
 ## License
 
 This work is licensed under a
